@@ -1,0 +1,36 @@
+h1, h2, .buttons {
+  text-align: center;
+}
+
+h1 {
+  font-size: 6.6rem;
+}
+
+img {
+  display:block;
+  margin:auto;
+}
+
+.button-large {
+  font-size: 2.5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  padding: 0 2rem;
+}
+
+.button-black {
+  background-color: black;
+  border-color: black;
+}
+.button-black.button-clear,
+.button-black.button-outline {
+  background-color: transparent;
+  color: black;
+}
+.button-black.button-clear {
+  border-color: transparent;
+}
+
+.hidden {
+  display: none;
+}
